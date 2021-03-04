@@ -5,15 +5,15 @@
 ## Оглавление
 
 * [Именование](#Именование)
-* [Property Wrappers](#Property Wrappers)
+* [Property Wrappers](#Врапперы)
 
 ## Именование
 
-- Любая View должна иметь суффикс `View` или компонента. Например: HomeView, FilterButton
+- Любая View должна иметь суффикс `View` или компонента. Например: HomeView, FilterButton, TitleLabel, ValueSlider
 - Замыкания у View должны иметь префикс `on`. Например: onTap, onSelection, onChange, onDrag
 
 
-## Property Wrappers
+## Врапперы
 
 - @State - используется только внутри View
 - @Binding - используется как внутри View, так и снаружи
