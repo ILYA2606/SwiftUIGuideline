@@ -44,6 +44,16 @@
 - internal func
 - private func
 
+Добавляйте пустую строку между разделами. Например:
+```swift
+let state: ViewState<[String]>
+let title: String
+    
+@Binding var filterInfo: [String: Bool]
+
+@State private var isFilterHidden = true
+```
+
 Последовательность врапперов:
 - @Environment
 - @EnvironmentObject
