@@ -41,10 +41,7 @@
 - private let
 - private var
 - public func
-- public func
 - internal func
-- internal func
-- private func
 - private func
 
 Последовательность врапперов:
@@ -54,6 +51,7 @@
 - @StateObject
 - @Binding
 - @State
+- var без враппера
 
 ## Ссылки
 
