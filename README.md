@@ -68,11 +68,11 @@ let title: String
 ```
 
 Последовательность врапперов:
+- @ObservedObject
+- @Binding
 - @Environment
 - @EnvironmentObject
-- @ObservedObject
 - @StateObject
-- @Binding
 - @State
 - var без враппера
 
