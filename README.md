@@ -84,6 +84,5 @@ let title: String
 [Туториал от Apple](https://developer.apple.com/tutorials/swiftui/)  
 [Первое знакомство с компонентами и переход из UIKit](https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet)  
 [Все базовые вещи SwiftUI](https://fuckingswiftui.com)  
-[Podlodka Crew #4](https://www.youtube.com/playlist?list=PLNSmyatBJig4yzwgVdhDJuSA4U8zhAqo7)  
 [100 дней SwiftUI](https://www.hackingwithswift.com/100/swiftui)  
 [Описания Property Wrapper-ов в SwiftUI](https://disk.yandex.ru/i/5C8sPIZwXVOC7g)
