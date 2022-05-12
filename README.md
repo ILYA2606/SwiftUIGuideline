@@ -56,6 +56,7 @@ MyView().frame(height: 20)
 - internal var
 - private let
 - private var
+- init
 - public func
 - internal func
 - private func
