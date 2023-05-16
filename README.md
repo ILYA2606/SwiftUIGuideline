@@ -49,17 +49,40 @@ MyView().frame(height: 20)
 
 ## Организация кода
 
-Соблюдайте следующую последовательность:
-- public let
-- public var
-- internal let
-- internal var
-- private let
-- private var
-- init
-- public func
-- internal func
-- private func
+Соблюдайте следующую последовательность свойств внутри View:
+```swift
+struct MyView: some View {
+    enum { }
+    struct { }
+ 
+    private enum { }
+    private struct { }
+
+    let
+    
+    @Environment var 
+    @ObservedObject var 
+    @StateObject var 
+    @Binding var 
+    @State var 
+    var
+    
+    var body: some View { }
+    
+    private let 
+
+    @Environment private var 
+    @ObservedObject private var 
+    @StateObject private var 
+    @Binding private var 
+    @State private var 
+    private var 
+    
+    init() { }
+    
+    private func () { }
+}
+```
 
 Добавляйте пустую строку между разделами. Например:
 ```swift
@@ -70,15 +93,6 @@ let title: String
 
 @State private var isFilterHidden = true
 ```
-
-Последовательность врапперов:
-- @ObservedObject
-- @Binding
-- @Environment
-- @EnvironmentObject
-- @StateObject
-- @State
-- var без враппера
 
 ## Ссылки
 
